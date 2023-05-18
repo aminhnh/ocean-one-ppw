@@ -4,11 +4,28 @@
   padding: 0px;
   color: white;
   font-family: "Poppins", sans-serif;
-  background-color: #1768ac;
+  /* background-color: #1768ac; */
+  outline: 1px solid red;
+}
+p {
+  font-size: 1rem;
 }
 .navbar {
   background-color: #a9cfed;
   position: sticky;
+  height: 4em;
   top: 0px;
   left: 0px;
+  display: flex;
+  /* Horizotal alignment */
+  justify-content: center;
+  /* Vertical alignment */
+  align-items: center;
+}
+.logo {
+  height: 3em;
+}
+.navbar ul li {
+  display: inline-block;
+  font-size: 25px;
 }
