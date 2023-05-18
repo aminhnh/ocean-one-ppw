@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  background-color: #1768ac;
+}
+.navbar {
+  background-color: #a9cfed;
+  position: sticky;
+  top: 0px;
+  left: 0px;
+}
