@@ -1,31 +1,69 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
 * {
   margin: 0px;
   padding: 0px;
   color: white;
   font-family: "Poppins", sans-serif;
   /* background-color: #1768ac; */
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 p {
   font-size: 1rem;
 }
 .navbar {
-  background-color: #a9cfed;
-  position: sticky;
+  width: 85%;
+  background-color: #2541b2;
+  position: fixed;
   height: 4em;
   top: 0px;
   left: 0px;
   display: flex;
   /* Horizotal alignment */
-  justify-content: center;
+  justify-content: space-between;
   /* Vertical alignment */
   align-items: center;
+  background: #1b58876d;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(3.5px);
+  padding: 0 8rem;
 }
 .logo {
-  height: 3em;
+  height: 3rem;
 }
 .navbar ul li {
   display: inline-block;
-  font-size: 25px;
+  font-size: 18px;
+  padding: 0 1.5rem;
+}
+li a {
+  font-weight: 500;
+  /* color: rgb(162, 162, 162); */
+  color: white;
+  text-decoration: none;
+}
+li a:hover {
+  text-decoration: underline;
+  /* color: #03256c; */
+}
+.page-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0), #1768ac),
+    /* bottom, image */ url(/img/naja-bertolt-jensen-2St3S36Gu7w-unsplash.jpg);
+  /* background-image: url("/img/naja-bertolt-jensen-2St3S36Gu7w-unsplash.jpg"); */
+}
+#title {
+  padding-top: 40vh;
+  font-weight: 700;
+  font-size: 64px;
+  text-shadow: -3px 4px 10px rgba(0, 0, 0, 0.75);
+}
+.page-1 p {
+  font-size: 24px;
+  line-height: 36px;
+  width: 20lh;
 }
