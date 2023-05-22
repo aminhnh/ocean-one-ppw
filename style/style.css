@@ -93,6 +93,7 @@ li a:hover {
   background-color: #114b68;
   height: 80vh;
   padding: 2em;
+  text-align: center;
 }
 .row {
   /* justify-content: space-around; */
@@ -105,6 +106,10 @@ li a:hover {
   display: flex;
   flex-direction: row;
 }
+.col div {
+  width: 200px;
+}
 .col p {
-  padding: 0 2rem;
+  /* padding: 0 2rem; */
+  width: 200px;
 }
