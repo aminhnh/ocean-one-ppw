@@ -5,7 +5,7 @@
   color: white;
   font-family: "Poppins", sans-serif;
   /* background-color: #1768ac; */
-  /* outline: 1px solid red; */
+  outline: 1px solid red;
 }
 p {
   font-size: 1rem;
@@ -52,9 +52,8 @@ li a:hover {
   text-align: center;
   height: 100vh;
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0), #1768ac),
+  background: linear-gradient(rgba(0, 0, 0, 0), #114b68),
     /* bottom, image */ url(/img/naja-bertolt-jensen-2St3S36Gu7w-unsplash.jpg);
-  /* background-image: url("/img/naja-bertolt-jensen-2St3S36Gu7w-unsplash.jpg"); */
 }
 #title {
   padding-top: 40vh;
@@ -65,5 +64,47 @@ li a:hover {
 .page-1 p {
   font-size: 24px;
   line-height: 36px;
-  width: 20lh;
+  padding: 0 20rem;
+}
+.btn-main {
+  margin-top: 2.2rem;
+  padding: 0px 30px;
+  border: 3px solid #ffffff;
+  border-radius: 27px;
+  background-color: transparent;
+  font-weight: 500;
+  font-size: 26px;
+}
+.btn {
+  width: 150px;
+  /* padding: 0px 30px; */
+  border: 2px solid #ffffff;
+  border-radius: 27px;
+  background-color: transparent;
+  /* font-weight: 500; */
+  font-size: 20px;
+}
+.btn-main:hover,
+.btn:hover {
+  background-color: rgba(0, 0, 0, 0.141);
+}
+.page-2 {
+  /* text-justify: inter-word; */
+  background-color: #114b68;
+  height: 80vh;
+  padding: 2em;
+}
+.row {
+  /* justify-content: space-around; */
+  display: flex;
+  flex-direction: column;
+  /* align-items: end; */
+}
+.col {
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+}
+.col p {
+  padding: 0 2rem;
 }
