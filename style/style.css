@@ -94,26 +94,17 @@ li a:hover {
   padding: 2em;
   text-align: center;
   font-size: 24px;
-  /* display: flex;
-  flex-direction: column; */
-}
-.page-2 div {
-  /* display: flex; */
-}
-.page-2 h3 {
-  /* display: flex; */
-  /* padding-left: 100px; */
 }
 .row {
-  /* justify-content: space-around; */
   display: flex;
   flex-direction: column;
-  /* align-items: end; */
+  margin: 100px 0;
 }
 .col {
-  justify-content: space-evenly;
+  justify-content: space-between;
   display: flex;
   flex-direction: row;
+  padding: 0 10rem;
 }
 .col div {
   width: 300px;
