@@ -89,11 +89,20 @@ li a:hover {
   background-color: rgba(0, 0, 0, 0.141);
 }
 .page-2 {
-  /* text-justify: inter-word; */
   background-color: #114b68;
   height: 80vh;
   padding: 2em;
   text-align: center;
+  font-size: 24px;
+  /* display: flex;
+  flex-direction: column; */
+}
+.page-2 div {
+  /* display: flex; */
+}
+.page-2 h3 {
+  /* display: flex; */
+  /* padding-left: 100px; */
 }
 .row {
   /* justify-content: space-around; */
@@ -107,9 +116,10 @@ li a:hover {
   flex-direction: row;
 }
 .col div {
-  width: 200px;
+  width: 300px;
+  padding: 1rem 0;
 }
 .col p {
-  /* padding: 0 2rem; */
-  width: 200px;
+  width: 300px;
+  text-align: justify;
 }
