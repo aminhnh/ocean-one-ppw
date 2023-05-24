@@ -29,7 +29,8 @@
     url(/img/naja-bertolt-jensen-2St3S36Gu7w-unsplash.jpg);
 }
 .page-2 {
-  height: 100vh;
+  height: 80vh;
+  background-color: #114b68;
 }
 
 /* CSS FOR VANILA NAVIGATION BAR */
