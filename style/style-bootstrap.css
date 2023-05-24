@@ -62,7 +62,14 @@
   width: 10em;
   height: auto;
 }
-p {
+.page-4 {
+  height: 200vh;
+  color: black;
+  background-color: black;
+}
+.proj-img {
+  width: 300px;
+  height: auto;
 }
 /* CSS FOR VANILA NAVIGATION BAR */
 .navigation-bar {
