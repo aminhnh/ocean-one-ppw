@@ -88,25 +88,18 @@
 }
 iframe {
   border-radius: 20px;
-  margin: 2em 2em;
 }
-
-/* MAP STUFF */
-.map-container-2 {
-  overflow: hidden;
-  padding-bottom: 56.25%;
-  position: relative;
-  height: 0;
+.mar-2 {
+  margin: 2em 1em;
 }
-.map-container-2 iframe {
+.footer {
+  position: fixed;
   left: 0;
-  top: 0;
-  height: 70%;
+  bottom: 0;
   width: 100%;
-  position: absolute;
+  background-color: red;
+  color: white;
 }
-/* ------------- */
-
 /* CSS FOR VANILA NAVIGATION BAR */
 .navigation-bar {
   background-color: #2541b2;
@@ -127,7 +120,8 @@ iframe {
 .logo {
   height: 3rem;
 }
-.navigation-bar ul li {
+.navigation-bar ul li,
+footer ul li {
   list-style: none;
   display: inline-block;
   font-size: 18px;
