@@ -26,7 +26,7 @@
 .page-1 {
   /* background-color: blue; */
   background: linear-gradient(rgba(0, 0, 0, 0), #114b68),
-    url(/img/naja-bertolt-jensen-2St3S36Gu7w-unsplash.jpg);
+    url(../img/naja-bertolt-jensen-2St3S36Gu7w-unsplash.jpg);
 }
 .page-2 {
   min-height: 80vh;
@@ -55,7 +55,7 @@
       #feedcd 94.43%,
       #ffffff 100%
     ),
-    url(/img/artem-beliaikin-l0VWETmSsTY-unsplash.jpg);
+    url(../img/artem-beliaikin-l0VWETmSsTY-unsplash.jpg);
   background-position: center bottom;
 }
 .icon {
