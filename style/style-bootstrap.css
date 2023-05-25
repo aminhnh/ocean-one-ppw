@@ -92,14 +92,7 @@ iframe {
 .mar-2 {
   margin: 2em 1em;
 }
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: red;
-  color: white;
-}
+
 /* CSS FOR VANILA NAVIGATION BAR */
 .navigation-bar {
   background-color: #2541b2;
