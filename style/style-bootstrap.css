@@ -131,3 +131,6 @@ li a:hover {
 .black {
   color: black;
 }
+.text-justify {
+  text-align: justify;
+}
