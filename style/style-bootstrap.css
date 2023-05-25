@@ -128,4 +128,6 @@ li a {
 li a:hover {
   text-decoration: underline;
 }
-/* ----------------------------- */
+.black {
+  color: black;
+}
