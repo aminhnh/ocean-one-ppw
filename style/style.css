@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
 * {
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
   font-family: "Poppins", sans-serif;
   color: #ffffff;
 }
@@ -63,12 +63,18 @@
   height: auto;
 }
 .page-4 {
-  height: 200vh;
+  height: 300vh;
   color: black;
-  background-color: black;
+  background-color: rgb(241, 241, 241);
+}
+.page-4 p,
+.page-4 h2,
+.page-4 h4,
+.page-4 h5 {
+  color: #114b68;
 }
 .proj-img {
-  width: 300px;
+  width: 500px;
   height: auto;
 }
 .page-5 {
@@ -133,4 +139,7 @@ li a:hover {
 }
 .text-justify {
   text-align: justify;
+}
+textarea {
+  background-color: transparent;
 }
