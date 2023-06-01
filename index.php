@@ -14,11 +14,6 @@
     <link rel="stylesheet" href="./style/style.css" />
   </head>
   <body>
-    <!-- <nav class="navbar">
-      <a class="navbar-brand" href="#">Navbar</a>
-    </nav> -->
-
-    <!-- TO DO: CHANGE NAVBAR TO BOOTSTRAP -->
     <nav class="navigation-bar w-100">
       <a href="#">
         <img src="./img/main-logo.png" alt="logo" class="logo" />
